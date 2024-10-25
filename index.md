@@ -21,6 +21,13 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+title: 首页
+lang: zh-CN
+
 ---
+
+
+
+
 
 [AI大模型相关](./AI大模型相关/index.md)

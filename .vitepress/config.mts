@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "知识分享",
+  description: "写过的笔记",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -13,10 +13,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'AI大模型相关',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '一、大模型相关的概念', link: '/AI大模型相关/一、大模型相关的概念' },
+          { text: '二、大模型相关的组件', link: '/AI大模型相关/二、大模型相关的组件' },
+          { text: '三、显卡', link: '/AI大模型相关/三、显卡' }
         ]
       }
     ],
